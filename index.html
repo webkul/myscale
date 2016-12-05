@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>myScale - Quick SVG Icon Resizer</title>
+	<meta name="description" content="Small Lightweight Tool scratched in Pure JavaScript to Quickly Resize and Convert SVG to PNG">
+	<link rel="stylesheet" type="text/css" href="assets/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="myScale - Quick SVG Icon Resizer">
+	<meta name="twitter:description" content="Small Lightweight Tool scratched in Pure JavaScript to Quickly Resize and Convert SVG to PNG">
+	<meta name="twitter:image:src" content="http://webkul.com/blog/wp-content/uploads/2016/12/myscale-poster.png">
+	<meta name="twitter:creator" content="@webkul">
+	<meta name="twitter:url" content="https://webkul.github.io/myscale/">
+	<meta property="og:title" content="myScale - Quick SVG Icon Resizer">
+	<meta property="og:description" content="Small Lightweight Tool scratched in Pure JavaScript to Quickly Resize and Convert SVG to PNG">
+	<meta property="og:url" content="https://webkul.github.io/myscale/">
+	<meta property="og:image" content="http://webkul.com/blog/wp-content/uploads/2016/12/myscale-poster.png">
+</head>
+<body>
+	<!--Logo-->
+	<h1>myScale</h1>
+	<h2>Quick SVG Icon Resizer </h2>
+	<!--//Logo-->
+	<p class="promote"><a href="https://github.com/webkul/myscale" target="_blank">Fork at GitHub</a><a href="http://bit.ly/myscale-tweet">Tweet</a></p>
+	<!--File Upload-->
+	<div class="btn-wrapper">
+		<label class="btn" for="file_upload">Upload SVG</label>
+		<input type="file" id="file_upload" accept=".svg">
+	</div>
+	<!--//File Upload-->
+
+
+	<!--Uploaded SVG Preview-->
+	<div class="preview" id="svg_preview"></div>
+	<!--//Uploaded SVG Preview-->
+	<form id="svg_form">
+		<input type="number" id="resize_value" required placeholder="Enter Resize Value">
+		<button type="button" onclick="playGround();exportResizedSvg();">Generate</button>
+	</form>
+	<div class="download-wrapper" id="download_wrapper">
+	<a href="data:" id="data" download="svg" class="download-png">Download PNG</a>
+	</div>
+	<img src="" id="fromcanvas">
+	<p class="credits">Crafted with <span>&#10084;</span> at <a href="http://design.webkul.com" target="_blank">Webkul UXlab</a></p>
+	<script src="assets/svg_todataurl.js"></script>
+	<script src="assets/script.js"></script>
+</body>
+</html>
