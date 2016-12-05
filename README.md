@@ -10,4 +10,6 @@ It enhanced a bit of productivity at Webkul HQ. So, Finally decided to Share it 
 Big Thanks to [Samuli Kaipiainen](https://github.com/sampumon) for [SVG.toDataURL](https://github.com/sampumon/SVG.toDataURL).
 **SVG.toDataURL** Library is utilized and used to Convert a Resized SVG to PNG using Data URL.
 
-Crafted with :hearts: at [Webkul UXLAb](http://design.webkul.com/)
+Crafted with :hearts: at [Webkul UXLab](http://design.webkul.com/)
+
+Thank You!
