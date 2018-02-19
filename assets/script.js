@@ -15,7 +15,7 @@ var playGround = function(){
 	document.getElementsByTagName("svg")[0].setAttribute("width", resizeValue);
 	document.getElementsByTagName("svg")[0].setAttribute("height", resizeValue);
 	document.getElementById("download_wrapper").style.display = "block";
-	var fileRename = "icon-" + resizeValue + "px";
+	var fileRename = "icon-" + resizeValue + "px.png";
 	document.getElementById("data").setAttribute("download", fileRename);
 }
 
